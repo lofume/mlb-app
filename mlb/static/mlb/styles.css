@@ -1,0 +1,53 @@
+body{
+    background-color: #244D87;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'IBM Plex Sans', sans-serif;                                   
+}
+h2{
+    color: white;
+    padding: 20px;
+}
+ul {
+  width: auto; 
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #204377;
+  font-weight: bold;
+}
+a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.custom-img {
+  max-width: 100px; 
+  max-height: 100px; 
+  
+}
+.news_bg{
+  background-color: antiquewhite;
+  
+}
+.news-story {
+  border: 1px solid #ccc; /* Add a border around each story */
+  padding: 10px; /* Add some padding for spacing */
+  margin-bottom: 20px; /* Add margin between stories */
+  /* Additional styling as desired */
+}
+
+.custom-img {
+  max-width: 100px;
+  max-height: 100px;
+  /* Additional styling for images as needed */
+}
+
+h2 {
+  font-size: 1.2rem; /* Adjust the heading font size */
+  /* Additional heading styles as needed */
+}

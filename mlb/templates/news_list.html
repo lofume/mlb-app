@@ -1,0 +1,18 @@
+{% extends 'home.html' %}
+{% load static %}
+
+{% block content %}
+  <div class="container">
+    <h1>MLB News</h1>
+    <!-- Inside your Django template (news_list.html) -->
+{% for news_item in news_data %}
+<div class="news-story">
+    <img class="custom-img" src="{{ news_item.image }}" alt="{{ news_item.title }}">
+    <h2>{{ news_item.title }}</h2>
+    <p>{{ news_item.description }}</p>
+    <a href="{{ news_item.link }}" target="_blank">Read more</a>
+</div>
+{% endfor %}
+
+  </div>
+{% endblock %}
