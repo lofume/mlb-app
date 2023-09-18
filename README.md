@@ -38,4 +38,4 @@ python manage.py migrate
 
 7. Run the development server:
 python manage.py runserver
-Access the application in your web browser at http://127.0.0.1:8000/.
+Access the application in your web browser at http://127.0.0.1:8000/mlb/news_list (to access homepage)
