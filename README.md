@@ -1,4 +1,4 @@
-# mlb-app
+# MLB Mock App - Toronto Blue Jays
 
 This is a Django web application that displays MLB standings data retrieved from an API.
 
